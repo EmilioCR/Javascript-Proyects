@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Let's roll</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+</head>
+<body>
+	<!--Start Full Wrapper-->
+	<div class="full-wrapper">
+		<!--Start Wrapper-->
+		<div class="wrapper">
+			<!--Start Header-->
+			<header>
+				<h1>Let´s Roll</h1>
+				<input type="button" value="Save" id="save" class="rest">
+				<input type="button" value="Load" id="load" class="rest">
+			<!--End Header-->
+			</header>
+			<!--Start Scores Life-->
+			<div class="life">
+				<h2>Time</h2>
+				<h3 id="chronometer"></h3>
+
+				<h2>Hamburger Stock:</h2>
+				<h3 id="score">0</h3>
+
+				<h2>Hps:</h2>
+				<h3 id="hamburguerPs">0</h3>
+
+				<h2>Hamburger Total:</h2>
+				<h3 id="hamburguerTotal">0</h3>
+
+				<div id="bonus"></div>
+			<!--End Life-->
+			</div>
+			<!--Start Ilustrations Area-->
+			<div class="ilustrations">
+				<img src="img/truck.png" alt="Truck" id="truck">
+				<img src="img/hambu.png" alt="Hamburguer" id="hambu">
+			<!--End Clicker Area-->
+			</div>
+			<!--Start Changes Area-->
+			<div class="changes">
+				<h2>Improve your Food Truck</h2>
+				<!--Click-->
+				<input type="button" id="moreClick" value="Click $100">
+				<img src="img/info.png" id="infoClick">
+				<input type="button" id="upgradClick" class="buttons-upgrades" value="Upgrade Click $1000">
+				<input type="button" id="secondClickUp" class="buttons-upgrades" value="Upgrade Click $2000">
+				<!--Chef-->
+				<input type="button" id="chef" value="Chef $2000">
+				<img src="img/info.png" id="infoChef">
+				<input type="button" id="upgradChef" class="buttons-upgrades" value="Upgrade Chef $2000">
+				<input type="button" id="secondChefUp" class="buttons-upgrades" value="Upgrade Chef $4000">
+				<!--Town-->
+				<input type="button" id="town" value="Town $50000">
+				<img src="img/info.png" id="infoTown">
+				<input type="button" id="upgradTown" class="buttons-upgrades" value="Upgrade Town $4000">
+				<input type="button" id="secondTownUp" class="buttons-upgrades" value="Upgrade Town $6000">
+				<!--City-->
+				<input type="button" id="city" value="City $1000000">
+				<img src="img/info.png" id="infoCity">
+				<input type="button" id="upgradCity" class="buttons-upgrades" value="Upgrade City $6000">
+				<input type="button" id="secondCityUp" class="buttons-upgrades" value="Upgrade City $8000">
+			<!--End Changes Area-->
+			</div>
+			<div id="info"></div>
+			<!--End Wrapper-->
+		</div>
+	<!--End Full Wrapper-->
+	</div>
+	<!--jQuery-->
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!--Game-->
+	<script src="js/main.js"></script>
+	<!--Ajax-->
+	<script src="js/main-ajax.js"></script>
+</body>
+</html>

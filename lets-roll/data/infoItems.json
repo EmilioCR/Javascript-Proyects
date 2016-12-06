@@ -1,0 +1,33 @@
+{
+  "click": [
+    "-Información de Click",
+    "-Valor 1 click por segundo",
+    "-Al comprar 10 intems de CLICK se desbloqueara dos upgrades.",
+    "-Estos upgrades los puede comprar y multiplicara los clicks realizados por el item.",
+    "-*(Para cerrar esta informacion presione click)"
+  ],
+
+  "chef": [
+    "-Información de Chef",
+    "-Valor 2 chef por segundo",
+    "-Al comprar 10 intems de CHEF se desbloqueara dos upgrades.",
+    "-Estos upgrades los puede comprar y multiplicara los clicks realizados por el item.",
+    "-*(Para cerrar esta informacion presione click)"
+  ],
+
+  "town": [
+    "-Información de Town",
+    "-Valor 4 click por segundo",
+    "-Al comprar 10 intems de TOWN se desbloqueara dos upgrades.",
+    "-Estos upgrades los puede comprar y multiplicara los clicks realizados por el item.",
+    "-*(Para cerrar esta informacion presione click)"
+  ],
+
+  "city": [
+    "-Información de City",
+    "-Valor 6 click por segundo",
+    "-Al comprar 10 intems de CITY se desbloqueara dos upgrades.",
+    "-Estos upgrades los puede comprar y multiplicara los clicks realizados por el item.",
+    "-*(Para cerrar esta informacion presione click)"
+  ]
+}

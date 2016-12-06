@@ -1,0 +1,140 @@
+/*------GENERAL-------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+header{
+  border-bottom: 6px dashed #70BDC5;
+  margin-bottom: 80px;
+  padding: 60px;
+  text-align: center;
+}
+
+input{
+  background-color: #9C4B3E;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-family:'Geo', sans-serif;
+  font-size: 20px;
+  padding: 10px 10px;
+  width: 84%;
+}
+
+h1{
+  font-family: 'Bungee', cursive;
+  font-size: 34px;
+  color: #D96057;
+}
+
+h2{
+  font-family: 'Bungee', cursive;
+  font-size: 16px;
+  color: #D96057;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Patrick Hand SC', cursive;
+  padding:10px;
+  text-align: center;
+}
+
+.full-wrapper{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+/*------HEADER-------*/
+
+.rest{
+  width: 10%;
+  background-color: #70BDC5;
+}
+
+/*------LIFE-------*/
+.life{
+  float: left;
+  width: 20%;
+}
+
+/*------TRUCK-------*/
+.ilustrations{
+  text-align: center;
+  width: 40%;
+}
+
+#truck {
+  margin-top: 110px;
+  position: absolute;
+  top: 162px;
+}
+
+#hambu {
+  display: none;
+  float: left;
+  position: absolute;
+}
+
+/*------UPGRADES-------*/
+.changes{
+  float: right;
+  width: 20%;
+}
+
+.buttons-upgrades {
+  background-color: #336466;
+  display: none;
+}
+
+/*------TIMER-------*/
+.active-class {
+  background-color: #D96057;
+}
+
+.active-upgrades {
+  background-color: #70BDC5;
+}
+
+#info{
+  background-color: #FFD700;
+  border: 1px solid white;
+  border-radius: 10px;
+  bottom: 0;
+  display: none;
+  font-family:'Patrick Hand SC', cursive;
+  font-size: 15px;
+  padding: 10px;
+  position: absolute;
+  right: 400px;
+  width: 300px;
+}
+/*--------------------------------------------START--------------------------------------------*/
+#timer {
+  text-align: center;
+}
+
+#timer img{
+  padding: 350px;
+}
+
+/*--------------------------------------------BONUS--------------------------------------------*/
+.bonus {
+  background-image: url('../img/bonus.png');
+  top:0px;
+  left:0px;
+  position:absolute;
+  z-index:200;
+  width:80px;
+  height:46px;
+    
+}
